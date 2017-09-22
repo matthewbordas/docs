@@ -56,7 +56,7 @@ When you limit your product's availability to only one language, you limit your 
 ### Best Practices for WPF Localization  
  When you localize                          [!INCLUDE[TLA2#tla_winclient](../../../../includes/tla2sharptla-winclient-md.md)]–based applications, consider implementing these best practices:  
   
--   Use                                  local                                 ization comments to provide extra context for localizers.  
+-   Use localization comments to provide extra context for localizers.  
   
 -   Use localization attributes to control localization instead of selectively omitting                                  <xref:System.Windows.Markup.Localizer.BamlLocalizableResourceKey.Uid%2A> properties                                  on elements. See                                  [Localization Attributes and Comments](../../../../docs/framework/wpf/advanced/localization-attributes-and-comments.md) for more information.  
   
@@ -76,7 +76,7 @@ When you limit your product's availability to only one language, you limit your 
   
 -   You can localize after you build .  
   
--   You can update to a newer version of the BAML form of XAMLwith localizations from an older version of the BAML form of XAML so that you can localize at the same time that you develop.  
+-   You can update to a newer version of the BAML form of XAML with localizations from an older version of the BAML form of XAML so that you can localize at the same time that you develop.  
   
 -   You can validate original source elements and semantics at compile time because the BAML form of XAML is the compiled form of                          [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)].  
   
